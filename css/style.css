@@ -1,0 +1,196 @@
+html {
+    font-size: 80.0%;
+}
+
+/* body style */
+body {
+    background-color: #c6a992;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Container */
+   .container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    border: 2px solid #7e6752; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #9d8169; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+/* line height */
+*{
+    line-height: 140%;
+}
+
+/* h1 styles */
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* h1 styles */
+h2 {
+    color: black;
+    text-align: center;
+}
+
+/* Paragraph Styles */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #79614c;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Navigation Links */
+nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/* Navigation Bar */
+nav a:hover {
+    background-color: #7e6752;
+    color: white;
+}
+
+/* Image container styles */
+.image-container {
+    width: 850px;
+    padding: 20px;
+    background-color: #9d8169; /* Light background for the container */
+    border: none; /* Removed the border from the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center; /* Centers content inside the container */
+}
+
+/* Image sizing */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Ensures the image is centered inside the container */
+}
+
+/* Footer Section Styling */
+.footer {
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer Section */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+/* Footer Section h4 */
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+/* Footer Section p */
+.footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Footer Section a */
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+/* Footer Section hover */
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* Menu Styling */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* Menu Item */
+.menu-item {
+    text-align: center;
+    border: 1px solid #7e6752;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #7e6752;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Item Image */
+.menu-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Menu Item p */
+.menu-item p {
+    font-size: 16px;
+    color: hwb(0 0% 100%);
+    color: #ffffff;
+}
+
+/* Image Container */
+.image-container {
+    width: 820px; /* Adjust width to match the image size plus padding */
+    padding: 10px; /* Add padding around the image */
+    border: 2px solid #7e6752; /* Light grey border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 20px auto; /* Center the container with margin */
+    text-align: center; /* Center-align the image (optional) */
+}
